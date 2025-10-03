@@ -1,0 +1,15 @@
+# -------------------------------------------------------
+# requirements.txt
+# -------------------------------------------------------
+# Purpose Summary:
+#   - Pinned dependencies for the public FastAPI embed demo.
+#   - Minimal surface; no provider SDKs or private integrations.
+# Audit:
+#   - All packages pinned by exact version.
+# -------------------------------------------------------
+fastapi==0.114.2
+uvicorn==0.30.6
+pydantic==2.9.1
+numpy==2.1.1
+python-dotenv==1.0.1
+python-dateutil==2.9.0.post0

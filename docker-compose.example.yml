@@ -1,0 +1,12 @@
+
+# --------------------------------------------------------
+# docker-compose.example.yml (demo only; local testing)
+# Do NOT expose these ports to the internet.
+# --------------------------------------------------------
+
+services:
+  cfo_embed_demo:
+    build: .
+    container_name: cfo-embed-demo
+    ports:
+      - "8005:8005"  # local access only
